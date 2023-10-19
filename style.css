@@ -8,6 +8,7 @@
     background: transparent;
     vertical-align: baseline;
     font-family: oldEnglish;
+    box-sizing: border-box;
 }
 
 #title {
@@ -72,6 +73,7 @@ img {
 }
 
 #results {
+    padding-top: 5%;
     visibility: hidden;
     position: fixed;
     display: block;
@@ -84,17 +86,23 @@ img {
 }
 
 #intro {
+    position: fixed;
+    width: 100%;
+    right: 50%;
+    bottom: 50%;
+    transform: translate(50%, 40%);
     visibility: hidden;
     text-align: center;
 }
 
 #intro header {
     font-size: 4rem;
-    margin-top: 30px;
     padding-bottom: 25px;
 }
 
 #intro p {
+    padding-left: 8%;
+    width: 90%;
     font-size: 2rem;
 }
 
