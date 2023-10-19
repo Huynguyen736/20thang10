@@ -1,0 +1,257 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    outline: none;
+    list-style: none;
+    text-decoration-color: none;
+    border: none;
+    background: transparent;
+    vertical-align: baseline;
+    font-family: oldEnglish;
+}
+
+#title {
+    padding: 1%;
+    font-size: 3em;
+    font-family: 'Cinzel', serif;
+    text-align: center;
+    color: seashell;
+    text-shadow: 10px 10px 7px #000;
+}
+
+
+body {
+    background-image: url(./img/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 30%;
+}
+
+
+#main_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0px 10px 10px 0px;
+}
+
+figure { 
+    border: 3px solid black;
+    margin: 2px;
+    height: 130px;
+    width: 90px;
+    background-color: beige;
+    color:black;
+    text-shadow: 1px 3px 20px #000;
+    font-size: 14px;
+    font-family: 'Cinzel', serif;
+    text-align: center;
+    padding: 5px;
+}
+
+img {
+    height: 100px;
+    width: 90px;
+}
+
+.results_container {
+    position: fixed;
+    right: 50%;
+    transform: translateX(50%);
+    bottom: 15%;
+    cursor: pointer;
+}
+
+#resultado {
+    display: flex;
+    align-items: center;
+    
+    color: white;
+    font-size: 45px;
+    text-shadow: 3px 3px 5px rgb(180, 0, 0);
+}
+
+#results {
+    visibility: hidden;
+    position: fixed;
+    display: block;
+    background-color: beige;
+    margin: 5% 5% 0 5%;
+    width: 90%;
+    height: 70%;
+    border-radius: 15px;
+    z-index: -1;
+}
+
+#intro {
+    visibility: hidden;
+    text-align: center;
+}
+
+#intro header {
+    font-size: 4rem;
+    margin-top: 30px;
+    padding-bottom: 25px;
+}
+
+#intro p {
+    font-size: 2rem;
+}
+
+#end {
+    position: fixed;
+    visibility: hidden;
+    right: 50%;
+    bottom: 60%;
+    transform: translate(50%, 50%);
+}
+
+#end header {
+    font-size: 4rem;
+    padding-bottom: 25px;
+}
+
+#end p {
+    font-size: 2rem;
+}
+
+#results img {
+    height: 20vw;
+    width: auto;
+    border-radius: 50px;
+    min-height: 200px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#results header {
+    font-size: 4rem;
+    padding-bottom: 25px;
+}
+
+#results p {
+    font-size: 2rem;
+}
+
+#hgg {
+    position: absolute;
+    width: 90%;
+    visibility: hidden;
+    display: flex;
+    align-items:center;
+}
+
+#trang {
+    position: absolute;
+    width: 90%;
+    visibility: hidden;
+    display: flex;
+    align-items:center;
+}
+
+#hien {
+    position: absolute;
+    width: 90%;
+    visibility: hidden;
+    display: flex;
+    align-items:center;
+}
+
+#pa5 {
+    position: absolute;
+    width: 90%;
+    visibility: hidden;
+    display: flex;
+    align-items:center;
+}
+
+#pa6 {
+    position: absolute;
+    width: 90%;
+    visibility: hidden;
+    display: flex;
+    align-items:center;
+}
+
+#tna {
+    position: absolute;
+    width: 90%;
+    visibility: hidden;
+    display: flex;
+    align-items:center;
+}
+
+#ngan {
+    position: absolute;
+    width: 90%;
+    visibility: hidden;
+    display: flex;
+    align-items:center;
+}
+
+#thao {
+    position: absolute;
+    width: 90%;
+    visibility: hidden;
+    display: flex;
+    align-items:center;
+}
+
+#nhung {
+    position: absolute;
+    width: 90%;
+    visibility: hidden;
+    display: flex;
+    align-items:center;
+}
+
+#manh {
+    position: absolute;
+    width: 90%;
+    visibility: hidden;
+    display: flex;
+    align-items:center;
+}
+
+#kly {
+    position: absolute;
+    width: 90%;
+    visibility: hidden;
+    display: flex;
+    align-items:center;
+}
+
+#khlinh {
+    position: absolute;
+    width: 90%;
+    visibility: hidden;
+    display: flex;
+    align-items:center;
+}
+
+#hgl {
+    position: absolute;
+    width: 90%;
+    visibility: hidden;
+    display: flex;
+    align-items:center;
+}
+
+.logo {
+    display: flex;
+    align-items: flex-end;
+    font-size: 35px;
+    justify-content: center;
+    font-family: 'Shadows Into Light', cursive;
+    color: wheat;
+    text-shadow: 3px 3px 3px #000;
+}
+
+
+        
+footer {
+    position: fixed;
+    right: 50%;
+    transform: translateX(50%);
+    bottom: 5%;
+}
